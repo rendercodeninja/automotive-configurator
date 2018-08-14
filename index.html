@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- The app title -->
+	<title>Car Configurator</title>
+	<!-- Load the core stylesheet here -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+</head>
+
+<body>
+
+	<div class="welcome-screen overlay">
+		<div class="ws-wrapper">
+			<h1 class="noselect">Lamborghini Aventador</h1>		
+			<h3 class="noselect">Configurator</h3>			
+			<button onclick="SkipIntro();">SKIP CINE INTRO</button>
+		</div>
+	</div>
+
+	<div class="preloader overlay">
+		<div class="wrapper">
+			<div class="icon"></div>
+			<p class="title">LOADING</p>
+			<p class="desc"></p>
+		</div>	
+	</div>
+
+	<div class="screen-fader overlay"></div>	
+
+</body>
+
+<!-- Load required JS file here -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/three.min.js"></script>
+<script type="text/javascript" src="js/RectAreaLightUniformsLib.js"></script>
+<script type="text/javascript" src="js/OrbitControls.js"></script>
+<script type="text/javascript" src="js/GLTFLoader.js"></script>
+<script type="text/javascript" src="js/tween.min.js"></script>
+<script type="text/javascript" src="js/stats.min.js"></script>
+<script type="text/javascript" src="js/Configurator.js"></script>
+
+</html>
