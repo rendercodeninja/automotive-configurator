@@ -2,9 +2,9 @@
 ---
 A web demo app for configuring the visual look of a retail car using WebGL rendering. The project was created using ThreeJS WebGL library with model formats in glTF. Click here to view [Demo Video](https://player.vimeo.com/video/274876974)
 
-<p align="center">
+<!-- <p align="center"> -->
 ![alt text](https://raw.githubusercontent.com/EverCG/WebGL-Car-Configurator/master/thumbs/screenshot_0a.jpg)
-</p>
+<!-- </p> -->
 
 ### Disclaimer
 This project is supplied without any warranty and intended for demo purposes only, to experiment with WebGL (threeJS) and the visual quality that could be achieved with it. The model files were downloaded from [www.tf3dm.com](https://www.tf3dm.com) and optimized using [Blender](https://www.blender.org) for realtime rendering capability.
