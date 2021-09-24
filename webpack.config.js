@@ -5,7 +5,7 @@ module.exports = {
     //Set source directory as context
     context: path.join(__dirname, 'src'),
     //Build Mode
-    mode: 'production',
+    mode: 'development',
     //Entry JS file
     entry: './app/app.js',
     //Build Directory
