@@ -1,0 +1,93 @@
+{
+    "body_colors": {
+        "colors": [
+            {
+                "name": "Arancio Atlas",
+                "value": "#F77F21"
+            },
+            {
+                "name": "Arancio Argos",
+                "value": "#FC4705"
+            },
+            {
+                "name": "Blu Cepheus",
+                "value": "#4393E6"
+            },
+            {
+                "name": "Rosso Mars",
+                "value": "#BF0012"
+            },
+            {
+                "name": "Bianco Monocerus",
+                "value": "#F2F3F5"
+            }
+        ],
+        "target": "Mt_Body",
+        "default": 3
+    },
+    "mirror_colors": {
+        "colors": [
+            {
+                "name": "Black",
+                "value": "#121212"
+            }
+        ],
+        "target": "Mt_MirrorCover",
+        "default": 0
+    },
+    "wheel_designs": {
+        "designs": [
+            {
+                "name": "Type A",
+                "value": "Obj_Rim_T0A",
+                "thumb": "Render_Tyre_0A"
+            },
+            {
+                "name": "Type B",
+                "value": "Obj_Rim_T0B",
+                "thumb": "Render_Tyre_0B"
+            }
+        ],
+        "default": 0
+    },
+    "wheel_colors": {
+        "colors": [
+            {
+                "name": "Black",
+                "value": "#000000"
+            },
+            {
+                "name": "Grey",
+                "value": "#4C5457"
+            },
+            {
+                "name": "Metalic",
+                "value": "#dddddd"
+            }
+        ],
+        "target": "Mt_AlloyWheels",
+        "default": 0
+    },
+    "caliper_colors": {
+        "colors": [
+            {
+                "name": "Red",
+                "value": "#990000"
+            },
+            {
+                "name": "Yellow",
+                "value": "#E9A435"
+            },
+            {
+                "name": "Black",
+                "value": "#000000"
+            },
+            {
+                "name": "White",
+                "value": "#F1F7F7"
+            }
+        ],
+        "target": "Mt_BrakeCaliper",
+        "default": 0
+    }
+}
