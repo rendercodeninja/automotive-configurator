@@ -1,5 +1,5 @@
 import { Mesh, MeshBasicMaterial } from 'three';
-import { GLTFLoader } from "three/examples/jsm/loaders/gltfloader";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { ACTIVE_PATH, STAGE_PATH } from './config';
 import { ColorUtils } from './utilities';
 
