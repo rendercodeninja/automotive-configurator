@@ -2,7 +2,7 @@
 ---
 A web demo app for configuring the visual look of a retail car using WebGL rendering. The project was created using ThreeJS WebGL library with model formats in glTF.
 
-#### [Live Demo](https://evercg.github.io/automotive-configurator)
+#### [Live Demo](https://rendercodeninja.github.io/automotive-configurator)
 &nbsp;
 ![alt text](https://raw.githubusercontent.com/EverCG/automotive-configurator/master/thumbs/screenshot_0a.jpg)
 
