@@ -4,7 +4,7 @@ A web demo app for configuring the visual look of a retail car using WebGL rende
 
 #### [Live Demo](https://rendercodeninja.github.io/automotive-configurator)
 &nbsp;
-![alt text](https://raw.githubusercontent.com/EverCG/automotive-configurator/master/thumbs/screenshot_0a.jpg)
+![alt text](https://raw.githubusercontent.com/RendercodeNinja/automotive-configurator/main/thumbs/screenshot_0a.jpg)
 
 ### Disclaimer
 This project is supplied without any warranty and intended for demo purposes only, to experiment with WebGL (threeJS) and the visual quality that could be achieved with it. The model files were downloaded from [www.tf3dm.com](https://www.tf3dm.com) and optimized using [Blender](https://www.blender.org) for realtime rendering capability.
@@ -19,7 +19,7 @@ Make sure the following requirements are met.
 The demo now uses webpack and webpack-dev-server for easy development with hot-loading features and is quiet easy to run by following the steps mentioned below
 
 * Make sure Node and npm are installed.
-* Clone the repository to any convinient folder using `git clone https://github.com/EverCG/WebGL-Car-Configurator.git`
+* Clone the repository to any convinient folder using `git clone https://github.com/RendercodeNinja/automotive-configurator.git`
 * Run `npm install` to install all dependency libraries.
 * Run `npm run dev` to start the webpack development server.
 * The app will be served on `https://localhost:5000`

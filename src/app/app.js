@@ -4,14 +4,14 @@
  * Description : Entry main file for app
  * Date : 10/09/2021
  * License : MIT
- * Author : Sethu Raj
- * URL : https://github.com/EverCG
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
  */
 
 import $ from 'jquery';
 import BaseEngine from "./baseEngine";
 import { CameraController } from "./cameraController";
-import { ACTIVE_PATH, GIT_URL } from "./config";
+import { ACTIVE_PATH } from "./config";
 import { Interface } from './inteface';
 import { SceneManager } from './sceneManager';
 import { AnimUtils, NetworkUtils } from "./utilities";

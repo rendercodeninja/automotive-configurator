@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: baseEngine.js
+ * Description : Wrapper for ThreeJS renderer
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import * as THREE from 'three';
 import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper';
 import Stats from 'three/examples/jsm/libs/stats.module';

@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: cameraController.js
+ * Description : Custom controller for cinematic and orbit camera
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import * as TWEEN from '@tweenjs/tween.js';
 import { PerspectiveCamera, Vector3 } from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';

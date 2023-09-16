@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: sceneManager.js
+ * Description : Handles 3D scene management
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import { Mesh, MeshBasicMaterial } from 'three';
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { ACTIVE_PATH, STAGE_PATH } from './config';

@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: utilities.js
+ * Description : Utility script with helper functions
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import { Color, Euler } from "three";
 
 // Color Utility methods
