@@ -12,7 +12,7 @@ import $ from 'jquery';
 import BaseEngine from "./baseEngine";
 import { CameraController } from "./cameraController";
 import { ACTIVE_PATH } from "./config";
-import { Interface } from './inteface';
+import { Interface } from './interface';
 import { SceneManager } from './sceneManager';
 import { AnimUtils, NetworkUtils } from "./utilities";
 
