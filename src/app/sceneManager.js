@@ -54,7 +54,7 @@ export const SceneManager = (() => {
         const defAlloys = meta.wheel_colors.default;
         const defCaliper = meta.caliper_colors.default;
 
-        //Get the startup colors for configurables
+        //Get the startup colors for configurable
         const dfCol_Body = ColorUtils.webColorToHex(meta.body_colors.colors[defBody].value);
         const dfCol_Mirror = ColorUtils.webColorToHex(meta.mirror_colors.colors[defMirror].value);
         const dfCol_Alloys = ColorUtils.webColorToHex(meta.wheel_colors.colors[defAlloys].value);

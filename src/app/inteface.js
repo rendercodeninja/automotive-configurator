@@ -102,7 +102,7 @@ export const Interface = (() => {
         //Iterate through each available design
         config.designs.forEach(design => {
 
-            //Compose thum image url from meta
+            //Compose thumb image url from meta
             const url = `assets/aventador/${design.thumb}.png`;
             //Compose the swatch element
             const swatch = $(`<li><button class="texture-swatch"><span>${design.name}</span></button></li>`)

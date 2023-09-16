@@ -13,7 +13,7 @@ import { Color, Euler } from "three";
 // Color Utility methods
 export const ColorUtils = {
 
-    //Convert webcolor format to hex color format (with Gamma correction)
+    //Convert web color format to hex color format (with Gamma correction)
     webColorToHex: (webColor) => {
 
         //Convert web color to hex base
@@ -45,7 +45,7 @@ export const NetworkUtils = {
                 onSuccess(xhr.response)
             //Else throw error
             else
-                console.error('Error occured loading meta JSON. Probably invalid JSON format.');
+                console.error('Error occurred loading meta JSON. Probably invalid JSON format.');
         }
 
         //Execute the xhr request
@@ -63,7 +63,7 @@ export const MathUtils = {
     },
 
     vector3DegToRadian: (point) => {
-        //The per dgree converter
+        //The per degree converter
         var degree = Math.PI / 180;
         //Return the new vector3 in radian
         return new Euler(point.x * degree, point.y * degree, point.z * degree, 'XYZ');
@@ -92,7 +92,7 @@ export const AnimUtils = {
         //Timed recurring
         var timer = setInterval(() => {
 
-            //Incriment opacity linear
+            //Increment opacity linear
             opacity += 50 / duration;
 
             //Exit timer on max opacity
@@ -172,7 +172,7 @@ export const AnimUtils = {
         //Timer function
         let timer = setInterval(() => {
 
-            //Incriment volume linear
+            //Increment volume linear
             vol += 50 / duration;
 
             if (vol >= options.max) {

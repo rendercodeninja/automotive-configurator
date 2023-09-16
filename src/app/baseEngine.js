@@ -97,7 +97,7 @@ export default class BaseEngine {
         //Create a loader manager
         this.manager = new THREE.LoadingManager();
 
-        //Pre-Filtered, Mipmapped Radiance Environment Generator
+        //Pre-Filtered, Mip-Mapped Radiance Environment Generator
         const pmremGenerator = new THREE.PMREMGenerator(this.renderer);
         //Precompile to use equirectangular shader to support equirectangular HDR maps
         pmremGenerator.compileEquirectangularShader();

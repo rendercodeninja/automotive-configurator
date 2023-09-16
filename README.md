@@ -11,7 +11,7 @@ This project is supplied without any warranty and intended for demo purposes onl
 
 ### Prerequisites
 Make sure the following requirements are met.
-1. A system with good specs for consistent FPS (Recomends Nvidia 1050 Ti or above)
+1. A system with good specs for consistent FPS (Recommends Nvidia 1050 Ti or above)
 2. NodeJS, npm installed.
 3. Latest Chrome/Firefox with JS enabled
 
@@ -19,15 +19,17 @@ Make sure the following requirements are met.
 The demo now uses webpack and webpack-dev-server for easy development with hot-loading features and is quiet easy to run by following the steps mentioned below
 
 * Make sure Node and npm are installed.
-* Clone the repository to any convinient folder using `git clone https://github.com/RendercodeNinja/automotive-configurator.git`
+* Clone the repository to any convenient folder using `git clone https://github.com/RendercodeNinja/automotive-configurator.git`
 * Run `npm install` to install all dependency libraries.
 * Run `npm run dev` to start the webpack development server.
 * The app will be served on `https://localhost:5000`
 
+![alt text](https://raw.githubusercontent.com/RendercodeNinja/automotive-configurator/main/thumbs/screenshot_0b.jpg)
+
 ### Building the demo
 The demo can also be built for static hosting. All HTML/JS/CSS and asset files will be packed into the `build` folder. Build files should be hosted through a server to avoid CORS Policy blocking by browsers. You can create a build by running the following command
 
-* Any changes to the `sass\style.scss` file should be complied seperate using `npm run build-css` before generating builds.
+* Any changes to the `sass\style.scss` file should be complied separate using `npm run build-css` before generating builds.
 * Afterwards, you can create a build by running `npm run build`
 
 ##### User Controls
