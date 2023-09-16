@@ -4,15 +4,15 @@
  * Description : Entry main file for app
  * Date : 10/09/2021
  * License : MIT
- * Author : Sethu Raj
- * URL : https://github.com/EverCG
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
  */
 
 import $ from 'jquery';
 import BaseEngine from "./baseEngine";
 import { CameraController } from "./cameraController";
-import { ACTIVE_PATH, GIT_URL } from "./config";
-import { Interface } from './inteface';
+import { ACTIVE_PATH } from "./config";
+import { Interface } from './interface';
 import { SceneManager } from './sceneManager';
 import { AnimUtils, NetworkUtils } from "./utilities";
 
@@ -63,7 +63,7 @@ class App extends BaseEngine {
         //Event Listener - Entity visibility change
         Interface.setOnEntityVisible(SceneManager.setEntityVisible);
 
-        //Intialize the scene
+        //Initialize the scene
         this.setupScene();
 
         //Recalculate context
@@ -107,7 +107,7 @@ class App extends BaseEngine {
     //Event - LoaderManager progress
     onLoadProgress(item, loaded, total) {
 
-        //Ignore if any load error occured
+        //Ignore if any load error occurred
         if (this.loadErrorSet)
             return;
 
@@ -118,14 +118,14 @@ class App extends BaseEngine {
     //Event - LoaderManager finished
     onLoadCompleted() {
 
-        //Ignore if any load error occured
+        //Ignore if any load error occurred
         if (this.loadErrorSet)
             return;
 
         //Update preloader content
         $('#preloader .icon').remove();
         $('#preloader .title').text('Automotive Configurator');
-        $('#preloader .desc').html('A ThreeJS based car configurator. This app is intented for demo purposes only.');
+        $('#preloader .desc').html('A ThreeJS based car configurator. This app is intended for demo purposes only.');
         $('#preloader .btn-main').show();
     }
 
@@ -157,7 +157,7 @@ class App extends BaseEngine {
             AnimUtils.fadeElementIn($('#welcome-screen')[0], 900, { display: 'flex' });
         });
 
-        //Start cinematic shots seuqnce
+        //Start cinematic shots sequence
         this.cameraController.startCinematic();
 
         //Start audio track with fade-in the audio
@@ -199,7 +199,7 @@ class App extends BaseEngine {
         this.cameraController.update();
         //Render scene through main camera
         this.renderer.render(this.scene, this.cameraController.mainCamera)
-        //Request updation to next frame
+        //Request update to next frame
         requestAnimationFrame(this.update.bind(this));
     }
 }

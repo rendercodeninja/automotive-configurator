@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: baseEngine.js
+ * Description : Wrapper for ThreeJS renderer
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import * as THREE from 'three';
 import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper';
 import Stats from 'three/examples/jsm/libs/stats.module';
@@ -87,7 +97,7 @@ export default class BaseEngine {
         //Create a loader manager
         this.manager = new THREE.LoadingManager();
 
-        //Pre-Filtered, Mipmapped Radiance Environment Generator
+        //Pre-Filtered, Mip-Mapped Radiance Environment Generator
         const pmremGenerator = new THREE.PMREMGenerator(this.renderer);
         //Precompile to use equirectangular shader to support equirectangular HDR maps
         pmremGenerator.compileEquirectangularShader();

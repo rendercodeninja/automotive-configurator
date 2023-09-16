@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EverCG/WebGL-Car-Configurator.git"
+    "url": "git+https://github.com/RendercodeNinja/automotive-configurator.git"
   },
   "author": "Sethu Raj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EverCG/WebGL-Car-Configurator/issues"
+    "url": "https://github.com/RendercodeNinja/automotive-configurator/issues"
   },
-  "homepage": "https://github.com/EverCG/WebGL-Car-Configurator#readme",
+  "homepage": "https://github.com/RendercodeNinja/automotive-configurator#readme",
   "dependencies": {
     "@tweenjs/tween.js": "^18.6.4",
     "jquery": "^3.6.0",

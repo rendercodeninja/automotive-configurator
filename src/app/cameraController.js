@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: cameraController.js
+ * Description : Custom controller for cinematic and orbit camera
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import * as TWEEN from '@tweenjs/tween.js';
 import { PerspectiveCamera, Vector3 } from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
@@ -5,7 +15,7 @@ import { MathUtils } from './utilities';
 
 //The camera startup position
 const ORBIT_CAM_POS = new Vector3(-27, 5, 10);
-//The camera lookat target
+//The camera lookAt target
 const ORBIT_CAM_TARGET = new Vector3(0, 3, 0);
 
 //The cinematic sequence position array
@@ -93,7 +103,7 @@ export class CameraController {
         this.orbitControls.enablePan = false;
         this.orbitControls.enableZoom = true;
         this.orbitControls.enableDamping = true;
-        this.orbitControls.minPolarAngle = 0.75; //Uper
+        this.orbitControls.minPolarAngle = 0.75; //Upper
         this.orbitControls.maxPolarAngle = 1.6; //Lower
         this.orbitControls.dampingFactor = 0.07;
         this.orbitControls.rotateSpeed = 0.07;
@@ -102,10 +112,10 @@ export class CameraController {
         this.orbitControls.autoRotate = true;
         this.orbitControls.autoRotateSpeed = 0.05;
 
-        //Set Cinecamera as startup camera
+        //Set cine camera as startup camera
         this.mainCamera = this.cineCamera;
 
-        //Iterat through each sequence position array
+        //Iterate through each sequence position array
         for (var i = 0; i < CINE_SEQUENCE_POINTS.length; i++) {
 
             //Get the tween starting point vector
@@ -166,10 +176,10 @@ export class CameraController {
 
     startCinematic() {
 
-        //Stop ongoing cinematic shot chaing
+        //Stop ongoing cinematic shot chaining
         this.stopCinematic();
 
-        //Start the first shot in cinematic squence
+        //Start the first shot in cinematic sequence
         this.mCineShotsList[0].start();
     }
 

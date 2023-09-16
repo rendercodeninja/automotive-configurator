@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: sceneManager.js
+ * Description : Handles 3D scene management
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import { Mesh, MeshBasicMaterial } from 'three';
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { ACTIVE_PATH, STAGE_PATH } from './config';
@@ -44,7 +54,7 @@ export const SceneManager = (() => {
         const defAlloys = meta.wheel_colors.default;
         const defCaliper = meta.caliper_colors.default;
 
-        //Get the startup colors for configurables
+        //Get the startup colors for configurable
         const dfCol_Body = ColorUtils.webColorToHex(meta.body_colors.colors[defBody].value);
         const dfCol_Mirror = ColorUtils.webColorToHex(meta.mirror_colors.colors[defMirror].value);
         const dfCol_Alloys = ColorUtils.webColorToHex(meta.wheel_colors.colors[defAlloys].value);

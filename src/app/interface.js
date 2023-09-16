@@ -1,3 +1,13 @@
+/*
+ * Project :WebGL Car Configurator
+ * File: interface.js
+ * Description : Handles configurator interface in 2D space
+ * Date : 10/09/2021
+ * License : MIT
+ * Author : RendercodeNinja
+ * URL : https://github.com/RendercodeNinja
+ */
+
 import $ from 'jquery';
 
 //Configurator Palette HTML Layout
@@ -92,7 +102,7 @@ export const Interface = (() => {
         //Iterate through each available design
         config.designs.forEach(design => {
 
-            //Compose thum image url from meta
+            //Compose thumb image url from meta
             const url = `assets/aventador/${design.thumb}.png`;
             //Compose the swatch element
             const swatch = $(`<li><button class="texture-swatch"><span>${design.name}</span></button></li>`)
