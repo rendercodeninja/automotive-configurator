@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automotive Configurator</title>
+    <link rel="stylesheet" href="./src/style.scss">
+</head>
+
+<body>
+
+    <!-- Overlay Preloader Element -->
+    <div id="preloader" class="loader overlay">
+        <div class="wrapper">
+            <div class="icon"></div>
+            <p class="title no-select">- LOADING -</p>
+            <p class="desc no-select"></p>
+            <button id="btn-start-demo" class="btn-main">Start</button>
+        </div>
+    </div>
+
+    <!-- Screen Fader -->
+    <div id="screen-fader" class="screen-fader overlay"></div>
+
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="ws overlay">
+        <div class="wrapper">
+            <h1 class="no-select">Lamborghini Aventador</h1>
+            <h3 class="no-select">Configurator</h3>
+            <button id="btn-skip-intro">Skip Intro</button>
+        </div>
+    </div>
+
+    <div id="app-authoring" class="authoring">
+        <a href="https://github.com/RendercodeNinja/automotive-configurator" class="btn-git" target="blank">
+            <img src="/images/github-mark-32px.png" alt="GitHub">
+            <span>View on <b>GitHub</b></span>
+        </a>
+    </div>
+    <script type="module" src="/src/app/app.js"></script>
+</body>
+
+</html>
