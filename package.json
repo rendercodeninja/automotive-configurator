@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack serve",
     "build": "webpack",
-    "build-css": "node-sass src/sass/style.scss src/static/css/style.css --output-style compressed"
+    "build-css": "sass src/sass/style.scss src/static/css/style.css --style compressed"
   },
   "repository": {
     "type": "git",
