@@ -71,7 +71,7 @@ export default class BaseEngine {
         this.renderer.sortObjects = false;
         this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
         this.renderer.toneMappingExposure = 1.0;
-        this.renderer.outputEncoding = THREE.sRGBEncoding;
+        this.renderer.outputColorSpace = THREE.SRGBColorSpace;
 
         //Append renderer to body context
         document.body.appendChild(this.renderer.domElement);
