@@ -104,7 +104,7 @@ export default class BaseEngine {
 
         //Create an RGBE Loader to handle PBR Rendering
         new EXRLoader(this.manager)
-            .setDataType(THREE.UnsignedByteType)
+            .setDataType(THREE.HalfFloatType)
             .setPath(EXR_PATH)
             .load(EXR_FILE, exr => {
 
