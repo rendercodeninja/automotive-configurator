@@ -71,7 +71,7 @@ export default class BaseEngine {
         this.renderer.sortObjects = false;
         this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
         this.renderer.toneMappingExposure = 1.0;
-        this.renderer.outputEncoding = THREE.sRGBEncoding;
+        this.renderer.outputColorSpace = THREE.SRGBColorSpace;
 
         //Append renderer to body context
         document.body.appendChild(this.renderer.domElement);
@@ -104,7 +104,7 @@ export default class BaseEngine {
 
         //Create an RGBE Loader to handle PBR Rendering
         new EXRLoader(this.manager)
-            .setDataType(THREE.UnsignedByteType)
+            .setDataType(THREE.HalfFloatType)
             .setPath(EXR_PATH)
             .load(EXR_FILE, exr => {
 
